@@ -3,7 +3,7 @@
 ### Base URL
  
 ```
-https://<railway-url>
+https://<comvis26-project-model-api.railway.internal>/
 ```
  
 ---
