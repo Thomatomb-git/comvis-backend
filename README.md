@@ -1,9 +1,18 @@
+---
+title: Pneumonia Detection API
+emoji: 🫁
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+---
+
 ## API Documentation
 
 ### Base URL
  
 ```
-https://comvis26-project-model-api-production.up.railway.app/
+https://<your-space-name>.hf.space/
 ```
  
 ---
@@ -53,11 +62,10 @@ POST /predict
 ### Error Handling
  
 | HTTP Status | Arti |
-|-------------|---------|
+|-------------|---------| 
 | `200` | Sukses |
 | `400` | File bukan JPEG/PNG |
 | `422` | Field `file` tidak ada di request |
 | `500` | Server error |
-| Network error | Server mungkin cold start |
- 
+
 ---
